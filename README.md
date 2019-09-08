@@ -26,7 +26,7 @@ $ npm start
 To use Templode in a docker container simply run:
 ```sh
 $ git clone https://github.com/NoxelS/Templode
-$ docker --tag templode .
+$ docker build --tag templode .
 $ docker run --restart="always" templode
 ```
 ### Todos
