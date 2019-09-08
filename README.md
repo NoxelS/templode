@@ -8,7 +8,8 @@ Templode is a simple NodeJS backend structure to begin with a project.
   - Handlebars (templating)
   - MySql
   - Bootstrap (css)
-
+  - Jest (testing)
+  
 Templode helps you with creating a new project by simply adding all the dependencies you need to start.
 
 ### Installation
@@ -29,6 +30,3 @@ $ git clone https://github.com/NoxelS/Templode
 $ docker build --tag templode .
 $ docker run --restart="always" templode
 ```
-### Todos
- - Jest support
- - NoView support
