@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="card mt-5 bg-dark shadow">
+      <div class="card-body">
+        <h4 class="card-title text-danger"><b>{{error.status}}</b></h4>
+        <h6 class="card-subtitle text-light"><b>{{message}}</b></h6>
+      </div>
+      <div class="card-body">
+        <p class="card-text text-light">{{error.stack}}</p>
+        <a id="tryagain" class="btn btn-danger" href="{{error.url}}" role="button">Try again</a>
+      </div>
+    </div>
+</div>

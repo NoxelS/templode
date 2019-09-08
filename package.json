@@ -1,0 +1,22 @@
+{
+  "name": "docker-node-backende",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^8.1.0",
+    "express": "~4.16.0",
+    "express-handlebars": "^3.1.0",
+    "express-robots": "^0.1.6",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "mysql": "^2.17.1",
+    "node-datetime": "^2.1.2",
+    "nodemon": "^1.19.2"
+  }
+}
