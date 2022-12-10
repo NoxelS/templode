@@ -10,7 +10,7 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "dotenv": "^8.1.0",
-    "express": "~4.16.0",
+    "express": "~4.17.3",
     "express-handlebars": "^3.1.0",
     "express-robots": "^0.1.6",
     "hbs": "~4.0.1",
